@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Target.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+     text-shadow: 50%;
+    color: #fff;
+    font-size: 60px;
+}
+
+.button {
+   display: block;
+    margin-left: 20px;
+    margin: 10px;
+    padding-top: 35px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    text-decoration-color: red;
+    border-radius: 18%;
+    margin-left: 25px;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btnn {
+     text-decoration-color: red;
+    border-radius: 18%;
+    margin-left: 25px;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btnn:hover {
+    border-color: #cccccc;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn:hover {
+    border-color: #cccccc;
+    background-color: #fff;
+    color: #000;
+}
+
+
+
